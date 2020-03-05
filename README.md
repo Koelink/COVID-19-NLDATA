@@ -4,7 +4,7 @@ Verwerking van de data zoals die in Nederland door het RIVM wordt aangeleverd.
 
 Datasets:
 
-Gemeente/provincies = https://www.cbs.nl/-/media/cbs/onze%20diensten/methoden/classificaties/overig/gemeenten%20alfabetisch%202019.xls
+Gemeente/provincies = https://www.cbs.nl/-/media/cbs/onze%20diensten/methoden/classificaties/overig/gemeenten%20alfabetisch%202020.xlsx (met dank aan https://www.reddit.com/user/mrmaxedtank/)
 
 Verspreiding per dag = https://www.volksgezondheidenzorg.info/onderwerp/infectieziekten/regionaal-internationaal/coronavirus-covid-19#node-coronavirus-covid-19-meldingen
 
