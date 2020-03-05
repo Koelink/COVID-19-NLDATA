@@ -46,3 +46,4 @@ df = df[cols]
 
 
 df.to_excel(f"gemeente tm {datetime.strftime(i,'%Y%m%d')}.xlsx")
+df.to_csv(f"gemeente tm {datetime.strftime(i,'%Y%m%d')}.csv")
