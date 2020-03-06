@@ -8,7 +8,40 @@ from datetime import datetime, timedelta
 dag = "03"
 maand = "03"
 jaar = "2020"
-datafile = f"https://www.volksgezondheidenzorg.info/sites/default/files/map/detail_data/klik_corona{dag}{maand}{jaar}.csv"
+datafile = f"https://www.volksgezondheidenzorg.info/sites/default/files/map/detail_data/klik_corona{dag}{maand}{jaar}_0.csv"
+
+
+def reddit_confirmed_table(df, sort):
+    cols = df.columns.tolist()
+    temp_dict = {"": ":-"}
+    for i in range(len(cols)):
+        temp_dict[cols[i]] = ":-"
+    reddit_df = pd.DataFrame([temp_dict])
+    reddit_df.set_index("", inplace=True)
+    reddit_df = pd.concat([reddit_df, df])
+
+    cols = reddit_df.columns.tolist()
+    cols = [f"**{col}**" for col in cols]
+    reddit_df.set_axis(cols, axis=1, inplace=True)
+    
+    if sort == "gemeente":
+        reddit_df["**Gemeentenaam**"] = reddit_df["**Gemeentenaam**"].apply(lambda x: f"**{x}**")
+        reddit_df.iloc[[0]] = ":-"
+        reddit_df.set_index("**Gemeentenaam**", inplace=True)
+        reddit_df.drop("**Provincienaam**", axis=1, inplace=True)
+
+        reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_city.csv", sep="|")
+    elif sort == "provincie":
+        df = df.T
+        
+        print(df)
+
+
+def province_confirmed_table(df):
+    province_df = df.groupby("Provincienaam").sum()
+    province_df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
+    reddit_confirmed_table(province_df, "provincie")
+    #print(province_df)
 
 
 def main():
@@ -47,28 +80,12 @@ def main():
 
     df.sort_values(['Gemeentenaam'], ascending=1, inplace = True)
 
-    df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed.csv")
+    df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.csv")
     print(df)
 
-    # Reddit table:
-    temp_dict = {"": ":-"}
-    for i in range(len(cols)):
-        temp_dict[cols[i]] = ":-"
-    reddit_df = pd.DataFrame([temp_dict])
-    reddit_df.set_index("", inplace=True)
-    reddit_df = pd.concat([reddit_df, df])
-
-    cols = reddit_df.columns.tolist()
-    cols = [f"**{col}**" for col in cols]
-    reddit_df.set_axis(cols, axis=1, inplace=True)
+    reddit_confirmed_table(df, "gemeente")
+    province_confirmed_table(df)
     
-    reddit_df["**Gemeentenaam**"] = reddit_df["**Gemeentenaam**"].apply(lambda x: f"**{x}**")
-    reddit_df.iloc[[0]] = ":-"
-    reddit_df.set_index("**Gemeentenaam**", inplace=True)
-    reddit_df.drop("**Provincienaam**", axis=1, inplace=True)
-
-    reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed.csv", sep="|")
-    reddit_df.info()
 
 if __name__ == "__main__":
     main()
