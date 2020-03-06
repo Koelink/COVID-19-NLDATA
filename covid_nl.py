@@ -49,7 +49,26 @@ def main():
 
     df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed.csv")
     print(df)
+
+    # Reddit table:
+    temp_dict = {"": ":-"}
+    for i in range(len(cols)):
+        temp_dict[cols[i]] = ":-"
+    reddit_df = pd.DataFrame([temp_dict])
+    reddit_df.set_index("", inplace=True)
+    reddit_df = pd.concat([reddit_df, df])
+
+    cols = reddit_df.columns.tolist()
+    cols = [f"**{col}**" for col in cols]
+    reddit_df.set_axis(cols, axis=1, inplace=True)
     
+    reddit_df["**Gemeentenaam**"] = reddit_df["**Gemeentenaam**"].apply(lambda x: f"**{x}**")
+    reddit_df.iloc[[0]] = ":-"
+    reddit_df.set_index("**Gemeentenaam**", inplace=True)
+    reddit_df.drop("**Provincienaam**", axis=1, inplace=True)
+
+    reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed.csv", sep="|")
+    reddit_df.info()
 
 if __name__ == "__main__":
     main()
