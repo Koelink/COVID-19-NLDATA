@@ -38,8 +38,11 @@ def reddit_confirmed_table(df, sort):
         reddit_df.set_axis(cols, axis=1, inplace=True)
         reddit_df = reddit_df.T
         reddit_df.index.name = "**Provincie**"
+
+        amount_of_days = 5
+        reddit_df = reddit_df[reddit_df.columns[-amount_of_days:]]
+
         reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_provinice.csv", sep="|")
-        print(reddit_df)
 
 
 def province_confirmed_table(df):
@@ -47,11 +50,12 @@ def province_confirmed_table(df):
     province_df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
     province_df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.xlsx")
     reddit_confirmed_table(province_df, "provincie")
-    #print(province_df)
+    province_df.plot()
+    print(province_df)
 
 
 def main():
-    first_day = datetime.strptime('03032020', "%d%m%Y").date()
+    first_day = datetime.strptime('27022020', "%d%m%Y").date()
     today = datetime.now().date()
 
     dates = [first_day + timedelta(days=x) for x in range(0, (today-first_day).days + 1)]
