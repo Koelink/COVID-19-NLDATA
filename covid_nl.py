@@ -12,6 +12,7 @@ datafile = f"https://www.volksgezondheidenzorg.info/sites/default/files/map/deta
 
 
 def reddit_confirmed_table(df, sort):
+    reddit_df = df
     cols = df.columns.tolist()
     temp_dict = {"": ":-"}
     for i in range(len(cols)):
@@ -23,23 +24,28 @@ def reddit_confirmed_table(df, sort):
     cols = reddit_df.columns.tolist()
     cols = [f"**{col}**" for col in cols]
     reddit_df.set_axis(cols, axis=1, inplace=True)
-    
     if sort == "gemeente":
         reddit_df["**Gemeentenaam**"] = reddit_df["**Gemeentenaam**"].apply(lambda x: f"**{x}**")
         reddit_df.iloc[[0]] = ":-"
         reddit_df.set_index("**Gemeentenaam**", inplace=True)
         reddit_df.drop("**Provincienaam**", axis=1, inplace=True)
-
         reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_city.csv", sep="|")
     elif sort == "provincie":
-        df = df.T
-        
-        print(df)
+        reddit_df = reddit_df.T
+        cols = reddit_df.columns.tolist()
+        cols = [f"**{col}**" for col in cols if col != ":-"]
+        cols = [":-"] + cols
+        reddit_df.set_axis(cols, axis=1, inplace=True)
+        reddit_df = reddit_df.T
+        reddit_df.index.name = "**Provincie**"
+        reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_provinice.csv", sep="|")
+        print(reddit_df)
 
 
 def province_confirmed_table(df):
     province_df = df.groupby("Provincienaam").sum()
     province_df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
+    province_df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.xlsx")
     reddit_confirmed_table(province_df, "provincie")
     #print(province_df)
 
@@ -81,6 +87,9 @@ def main():
     df.sort_values(['Gemeentenaam'], ascending=1, inplace = True)
 
     df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.csv")
+    df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.xlsx")
+
+    
     print(df)
 
     reddit_confirmed_table(df, "gemeente")
