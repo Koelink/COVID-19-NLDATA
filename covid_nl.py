@@ -30,6 +30,7 @@ def reddit_confirmed_table(df, sort):
         reddit_df.set_index("**Gemeentenaam**", inplace=True)
         reddit_df.drop("**Provincienaam**", axis=1, inplace=True)
         reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_city.csv", sep="|")
+        
     elif sort == "provincie":
         reddit_df = reddit_df.T
         cols = reddit_df.columns.tolist()
@@ -38,10 +39,6 @@ def reddit_confirmed_table(df, sort):
         reddit_df.set_axis(cols, axis=1, inplace=True)
         reddit_df = reddit_df.T
         reddit_df.index.name = "**Provincie**"
-
-        #amount_of_days = 5
-        #reddit_df = reddit_df[reddit_df.columns[]]
-
         reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_provinice.csv", sep="|")
 
 
@@ -49,7 +46,9 @@ def province_confirmed_table(df):
     province_df = df.groupby("Provincienaam").sum()
     province_df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
     province_df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.xlsx")
-    reddit_confirmed_table(province_df, "provincie")
+    
+    amount_of_days = 5
+    reddit_confirmed_table(province_df[province_df.columns[-amount_of_days:]], "provincie")
     province_df.plot()
     print(province_df)
 
