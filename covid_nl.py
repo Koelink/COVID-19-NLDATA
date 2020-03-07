@@ -39,8 +39,8 @@ def reddit_confirmed_table(df, sort):
         reddit_df = reddit_df.T
         reddit_df.index.name = "**Provincie**"
 
-        amount_of_days = 5
-        reddit_df = reddit_df[reddit_df.columns[-amount_of_days:]]
+        #amount_of_days = 5
+        #reddit_df = reddit_df[reddit_df.columns[]]
 
         reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_provinice.csv", sep="|")
 
