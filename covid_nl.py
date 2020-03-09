@@ -88,6 +88,7 @@ def main():
     df = df[cols]
 
     df.sort_values(['Gemeentenaam'], ascending=1, inplace = True)
+    df.index.name = "gemeente_id"
 
     df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.csv")
     df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.xlsx")
