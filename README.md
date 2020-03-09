@@ -2,6 +2,11 @@
 
 Verwerking van de data zoals die in Nederland door het RIVM wordt aangeleverd.
 
+## Gegevens worden gebruikt voor:
+[Map van gemeentes en provincie](https://studentdeployswebsite.z28.web.core.windows.net/) van Reddit-user [Crappy_bara](https://www.reddit.com/user/crappy_bara)
+
+[Hippe visualisatie](https://i.imgur.com/4PNpuOj.gif) van Reddit-user [FeelsLikeBatMan](https://www.reddit.com/user/FeelsLikeBatMan/)
+
 ### Datasets:
 
 
@@ -9,7 +14,7 @@ Verwerking van de data zoals die in Nederland door het RIVM wordt aangeleverd.
 
 https://www.cbs.nl/-/media/_excel/2020/03/gemeenten%20alfabetisch%202020.xlsx 
 
-(met dank aan https://www.reddit.com/user/mrmaxedtank/)
+(met dank aan Reddit-user [mrmaxedtan](https://www.reddit.com/user/mrmaxedtank/))
 
 
 ### Verspreiding per dag :
