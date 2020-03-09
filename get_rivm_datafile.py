@@ -16,7 +16,7 @@ print(page)
 #print(pd)
 
 
-url="https://raw.githubusercontent.com/cs109/2014_data/master/countries.csv"
+site = "https://www.volksgezondheidenzorg.info/sites/default/files/map/detail_data/klik_corona08032020.csv"
 s=requests.get(site).content
 c=pd.read_csv(io.StringIO(s.decode('utf-8')), delimiter=";")
 print(c)

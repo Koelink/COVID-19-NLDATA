@@ -39,6 +39,12 @@ def reddit_confirmed_table(df, sort):
         reddit_df.set_axis(cols, axis=1, inplace=True)
         reddit_df = reddit_df.T
         reddit_df.index.name = "**Provincie**"
+        index_cols = reddit_df.index.tolist()
+        for index, row in reddit_df.iterrows():
+            index_nr = index_cols.index(index)
+            for c, x in enumerate(row):
+                if isinstance(x, float):
+                    reddit_df.iloc[index_nr,c] = int(x)
         reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_provinice.csv", sep="|")
 
 
