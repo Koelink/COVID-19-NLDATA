@@ -26,7 +26,7 @@ def main():
                     csv_date = csv_file.split("klik_corona")[-1][:8]
                 except Exception as e:
                     print(datetime.now(), e)
-                    sleep(5) 
+                    sleep(60) 
                     continue
 
                 if csv_date == today:      # check if latest file is from today
@@ -42,7 +42,7 @@ def main():
 
                     except Exception as e:
                         print(datetime.now(), e)
-                        sleep(5) 
+                        sleep(60) 
                         continue
                 else:
                     print(datetime.now(), ": No file on RIVM site for today, checks in 5 min")
