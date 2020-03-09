@@ -59,7 +59,7 @@ def province_confirmed_table(df):
     print(province_df)
 
 
-def main():
+def update_data():
     first_day = datetime.strptime('27022020', "%d%m%Y").date()
     today = datetime.now().date()
 
@@ -107,4 +107,4 @@ def main():
     
 
 if __name__ == "__main__":
-    main()
+    update_data()
