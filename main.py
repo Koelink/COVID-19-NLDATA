@@ -34,7 +34,7 @@ def main():
                         csv_url = url.split("/onderwerp")[0] + csv_file
                         s = requests.get(csv_url).content
                         df = pd.read_csv(io.StringIO(s.decode('utf-8')), delimiter=";")     # makes a df from latest csv file
-                        df.to_csv(csv_local)
+                        df.to_csv(csv_local, index=False, sep=";")
                         update_data()
                         print(f"data updated for {today}")
                         print("File used:", csv_file)
