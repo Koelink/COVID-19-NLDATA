@@ -37,5 +37,7 @@ https://github.com/CSSEGISandData/COVID-19
 ## todo:
 - standaard laatste versie "time_series_19-covid-Confirmed.csv" ophalen en slechts laatste column toevoegen ipv elke keer opnieuw hele df maken
 - afhankelijk van de manier waarop RIVM gaat aanleveren df's maken voor mogelijke overlijdenen en mensen die genezen zijn
-- automatisch ophalen nieuwe data RIVM
+- uploaden nieuwe data naar Github en mogelijk Google Drive
 - uploaden naar google drive? 
+- Besmettingen per 100k inwoners
+- Verandering in 24 uur
