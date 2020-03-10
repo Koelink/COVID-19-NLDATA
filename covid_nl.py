@@ -34,7 +34,7 @@ def reddit_confirmed_table(df, sort):
     elif sort == "provincie":
         reddit_df = reddit_df.T
         cols = reddit_df.columns.tolist()
-        cols = [f"**{col[0]}**" for col in cols if col != ":-"]
+        cols = [f"**{col[1]}**" for col in cols if col != ":-"]
         cols = [":-"] + cols
         reddit_df.set_axis(cols, axis=1, inplace=True)
         reddit_df = reddit_df.T
@@ -43,7 +43,7 @@ def reddit_confirmed_table(df, sort):
 
 
 def province_confirmed_table(df):
-    province_df = df.groupby(["Provincienaam", "Provinciecode"]).sum()
+    province_df = df.groupby(["Provinciecode", "Provincienaam"]).sum().sort_index(level=["Provincienaam", "Provinciecode"])
     print(province_df)
     province_df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
     province_df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.xlsx")
