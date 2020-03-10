@@ -71,6 +71,8 @@ def update_data():
         try:
             file = f"input_data/klik_corona{datetime.strftime(i,'%d%m%Y')}.csv"
             temp_df = pd.read_csv(file, delimiter=";", decimal=",")
+            temp_df["Aantal"].fillna(0, inplace=True)
+            temp_df["Aantal"] = temp_df["Aantal"].astype(int)
             temp_df["Gemeentecode"] = temp_df["id"].apply(lambda x: str(int(x)))
             temp_df.set_index("id", inplace=True)
             temp_df[datetime.strftime(i,'%d-%m-%Y')] = temp_df["Aantal"]
