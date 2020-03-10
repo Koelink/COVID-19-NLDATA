@@ -54,13 +54,15 @@ def main(cronjob = True):
             except Exception as e:
                 print(i, e)
         if x == True:
+            df["Aantal"].fillna(0, inplace=True)
+            df["Aantal"] = df["Aantal"].astype(int)
             df.to_csv(csv_local, index=False, sep=";")
             update_data()
             latest_rivm_file(today, i)
             print(f"data updated for {today}")
             print("File used:", i)
         else:
-            print("Geen nieuw bestand")
+            print("No new file, ")
 
 
     else:

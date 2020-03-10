@@ -50,13 +50,13 @@ def reddit_confirmed_table(df, sort):
 
 def province_confirmed_table(df):
     province_df = df.groupby("Provincienaam").sum()
+    print(province_df)
     province_df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
     province_df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.xlsx")
     
     amount_of_days = 5
     reddit_confirmed_table(province_df[province_df.columns[-amount_of_days:]], "provincie")
     province_df.plot()
-    print(province_df)
 
 
 def update_data():
