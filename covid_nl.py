@@ -19,7 +19,7 @@ def reddit_confirmed_table(df, sort):
         temp_dict[cols[i]] = ":-"
     reddit_df = pd.DataFrame([temp_dict])
     reddit_df.set_index("", inplace=True)
-    reddit_df = pd.concat([reddit_df, df])
+    reddit_df = pd.concat([reddit_df, df], sort=True)
 
     cols = reddit_df.columns.tolist()
     cols = [f"**{col}**" for col in cols]
@@ -34,22 +34,16 @@ def reddit_confirmed_table(df, sort):
     elif sort == "provincie":
         reddit_df = reddit_df.T
         cols = reddit_df.columns.tolist()
-        cols = [f"**{col}**" for col in cols if col != ":-"]
+        cols = [f"**{col[0]}**" for col in cols if col != ":-"]
         cols = [":-"] + cols
         reddit_df.set_axis(cols, axis=1, inplace=True)
         reddit_df = reddit_df.T
         reddit_df.index.name = "**Provincie**"
-        index_cols = reddit_df.index.tolist()
-        for index, row in reddit_df.iterrows():
-            index_nr = index_cols.index(index)
-            for c, x in enumerate(row):
-                if isinstance(x, float):
-                    reddit_df.iloc[index_nr,c] = int(x)
         reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_provinice.csv", sep="|")
 
 
 def province_confirmed_table(df):
-    province_df = df.groupby("Provincienaam").sum()
+    province_df = df.groupby(["Provincienaam", "Provinciecode"]).sum()
     print(province_df)
     province_df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
     province_df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.xlsx")
@@ -88,11 +82,11 @@ def update_data():
 
     provincie_df = pd.read_excel("input_data/Gemeenten alfabetisch 2020.xlsx")
     provincie_df.set_index("Gemeentecode", inplace = True)
-    provincie_df = provincie_df[["Provincienaam", "Gemeentenaam"]]
+    provincie_df = provincie_df[["Provinciecode", "Provincienaam", "Gemeentenaam"]]
     df = df.merge(provincie_df, left_index=True, right_index=True)
 
     cols = df.columns.tolist()
-    cols = cols[-2:] + cols[:-2]
+    cols = cols[-3:] + cols[:-3]
     df = df[cols]
 
     df.sort_values(['Gemeentenaam'], ascending=1, inplace = True)
