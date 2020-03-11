@@ -259,7 +259,7 @@ gemeente_id,Provinciecode,Provincienaam,Gemeentenaam,27-02-2020,28-02-2020,29-02
 279,25,Gelderland,Scherpenzeel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 606,28,Zuid-Holland,Schiedam,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 88,21,Friesland,Schiermonnikoog,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-1676,29,Zeeland,Schouwen-Duiveland,0,0,0,0,0,0,0,0,0,1,1,1,2,2
+1676,29,Zeeland,Schouwen-Duiveland,0,0,0,0,0,0,0,0,0,1,1,1,2,1
 965,31,Limburg,Simpelveld,0,0,0,0,0,0,0,0,2,2,2,2,2,2
 1702,30,Noord-Brabant,Sint Anthonis,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 845,30,Noord-Brabant,Sint-Michielsgestel,0,0,0,0,0,0,0,1,2,3,5,5,5,5
@@ -300,7 +300,7 @@ gemeente_id,Provinciecode,Provincienaam,Gemeentenaam,27-02-2020,28-02-2020,29-02
 858,30,Noord-Brabant,Valkenswaard,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 47,20,Groningen,Veendam,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 345,26,Utrecht,Veenendaal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-717,29,Zeeland,Veere,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+717,29,Zeeland,Veere,0,0,0,0,0,0,0,0,0,0,0,0,0,2
 861,30,Noord-Brabant,Veldhoven,0,0,0,0,0,0,0,0,0,0,0,1,1,1
 453,27,Noord-Holland,Velsen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 983,31,Limburg,Venlo,0,0,0,0,0,0,0,0,0,0,0,1,1,1
