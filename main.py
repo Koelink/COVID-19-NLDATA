@@ -30,11 +30,12 @@ def latest_rivm_file(today, function):
 
 
 def main(cronjob = True):    
+    script_dir = os.path.dirname(__file__) + "/"
     if cronjob == True:
         today = datetime.now().strftime('%d%m%Y')
         csv_url = "https://www.volksgezondheidenzorg.info/sites/default/files/map/detail_data/klik_corona"
         today = datetime.now().strftime('%d%m%Y')
-        csv_local = f"input_data/klik_corona{today}.csv"
+        csv_local = f"{script_dir}input_data/klik_corona{today}.csv"
         x = False
         range_end = latest_rivm_file(today, "open")
         for i in range(5, range_end, -1):
@@ -64,6 +65,7 @@ def main(cronjob = True):
             print("File used:", i)
         else:
             print("No new file")
+        sleep(10)
 
 
     else:
