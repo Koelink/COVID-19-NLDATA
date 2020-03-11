@@ -41,15 +41,16 @@ def main(cronjob = True):
         for i in range(5, range_end, -1):
             print(i)
             try:
-                s = requests.get(f"{csv_url}{today}_{i}.csv", timeout=3).content
+                s = requests.get(f"{csv_url}{today}_{i}.csv", timeout=5).content
                 df = pd.read_csv(io.StringIO(s.decode('utf-8')), delimiter=";") 
                 x = True
                 break
             except Exception as e:
                 print(i, e)
+                sleep(3)   # Sleeps for 3 seconds to give the server some rest
         if x == False and range_end == -1:
             try:
-                s = requests.get(f"{csv_url}{today}.csv", timeout=3).content
+                s = requests.get(f"{csv_url}{today}.csv", timeout=5).content
                 df = pd.read_csv(io.StringIO(s.decode('utf-8')), delimiter=";") 
                 i = -2
                 x = True
