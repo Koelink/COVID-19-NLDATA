@@ -1,356 +1,356 @@
-gemeente_id,Provinciecode,Provincienaam,Gemeentenaam,27-02-2020,28-02-2020,29-02-2020,01-03-2020,02-03-2020,03-03-2020,04-03-2020,05-03-2020,06-03-2020,07-03-2020,08-03-2020,09-03-2020,10-03-2020
-518,28,Zuid-Holland,'s-Gravenhage,0,0,0,0,0,0,0,0,3,2,2,2,3
-796,30,Noord-Brabant,'s-Hertogenbosch,0,0,0,0,0,0,0,0,0,2,2,3,4
-1680,22,Drenthe,Aa en Hunze,0,0,0,0,0,0,0,0,0,0,0,0,0
-358,27,Noord-Holland,Aalsmeer,0,0,0,0,0,0,0,0,0,0,0,0,2
-197,25,Gelderland,Aalten,0,0,0,0,0,0,0,0,0,0,0,0,0
-59,21,Friesland,Achtkarspelen,0,0,0,0,0,0,0,0,0,0,0,0,0
-482,28,Zuid-Holland,Alblasserdam,0,0,0,0,0,0,0,0,0,0,0,0,0
-613,28,Zuid-Holland,Albrandswaard,0,0,0,0,0,0,0,0,0,0,1,1,1
-361,27,Noord-Holland,Alkmaar,0,0,0,0,0,0,0,0,0,0,0,0,1
-141,23,Overijssel,Almelo,0,0,0,0,0,0,0,0,0,0,1,1,1
-34,24,Flevoland,Almere,0,0,0,0,0,0,0,0,1,1,1,1,1
-484,28,Zuid-Holland,Alphen aan den Rijn,0,0,0,0,1,1,1,1,1,1,1,1,1
-1723,30,Noord-Brabant,Alphen-Chaam,0,0,0,0,0,0,0,0,0,0,0,0,0
-1959,30,Noord-Brabant,Altena,0,0,0,1,1,3,3,4,4,4,4,4,4
-60,21,Friesland,Ameland,0,0,0,0,0,0,0,0,0,0,0,0,0
-307,26,Utrecht,Amersfoort,0,0,0,0,0,0,0,0,0,0,0,0,0
-362,27,Noord-Holland,Amstelveen,0,0,0,0,0,0,0,0,0,1,1,2,2
-363,27,Noord-Holland,Amsterdam,0,1,1,1,1,0,1,2,2,3,4,4,8
-200,25,Gelderland,Apeldoorn,0,0,0,0,0,0,0,0,0,0,0,0,0
-3,20,Groningen,Appingedam,0,0,0,0,0,0,0,0,0,0,0,0,0
-202,25,Gelderland,Arnhem,0,0,0,0,0,0,0,0,1,1,3,2,2
-106,22,Drenthe,Assen,0,0,0,0,0,0,0,0,0,0,0,0,0
-743,30,Noord-Brabant,Asten,0,0,0,0,0,0,0,0,0,0,0,0,0
-744,30,Noord-Brabant,Baarle-Nassau,0,0,0,0,0,0,0,0,0,0,0,0,0
-308,26,Utrecht,Baarn,0,0,0,0,0,0,0,0,0,0,0,0,0
-489,28,Zuid-Holland,Barendrecht,0,0,0,0,0,0,0,0,0,0,0,0,0
-203,25,Gelderland,Barneveld,0,0,0,0,0,0,0,0,0,0,0,0,0
-888,31,Limburg,Beek,0,0,0,0,0,0,0,0,0,0,0,0,0
-1954,31,Limburg,Beekdaelen,0,0,0,0,0,0,0,0,1,2,2,4,5
-370,27,Noord-Holland,Beemster,0,0,0,0,0,0,0,0,0,0,0,0,0
-889,31,Limburg,Beesel,0,0,0,0,0,0,0,0,0,0,0,0,0
-1945,25,Gelderland,Berg en Dal,0,0,0,0,0,0,0,0,0,0,0,0,1
-1724,30,Noord-Brabant,Bergeijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-893,31,Limburg,Bergen (L.),0,0,0,0,0,0,0,0,0,0,0,0,0
-373,27,Noord-Holland,Bergen (NH.),0,0,0,0,0,0,0,0,0,0,0,0,0
-748,30,Noord-Brabant,Bergen op Zoom,0,0,0,0,0,0,0,0,0,0,1,1,1
-1859,25,Gelderland,Berkelland,0,0,0,0,0,0,0,0,0,0,0,0,0
-1721,30,Noord-Brabant,Bernheze,0,0,0,0,0,0,0,0,0,1,1,2,2
-753,30,Noord-Brabant,Best,0,0,0,0,0,0,0,1,1,1,2,2,2
-209,25,Gelderland,Beuningen,0,0,0,0,0,0,0,0,1,1,5,3,3
-375,27,Noord-Holland,Beverwijk,0,0,0,0,0,0,1,2,2,3,4,4,4
-1728,30,Noord-Brabant,Bladel,0,0,0,0,0,0,0,0,0,0,0,0,0
-376,27,Noord-Holland,Blaricum,0,0,0,0,0,0,1,1,1,1,1,1,1
-377,27,Noord-Holland,Bloemendaal,0,0,0,0,0,0,0,0,0,1,1,1,1
-1901,28,Zuid-Holland,Bodegraven-Reeuwijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-755,30,Noord-Brabant,Boekel,0,0,0,0,0,0,0,0,0,0,1,1,2
-1681,22,Drenthe,Borger-Odoorn,0,0,0,0,0,0,0,0,0,0,0,0,0
-147,23,Overijssel,Borne,0,0,0,0,0,0,0,1,1,2,3,3,3
-654,29,Zeeland,Borsele,0,0,0,0,0,0,0,0,0,0,0,0,0
-756,30,Noord-Brabant,Boxmeer,0,0,0,0,0,0,0,0,0,0,0,0,0
-757,30,Noord-Brabant,Boxtel,0,0,0,0,0,0,0,0,0,0,0,0,0
-758,30,Noord-Brabant,Breda,0,0,0,0,0,0,0,0,2,2,16,19,27
-501,28,Zuid-Holland,Brielle,0,0,0,0,0,0,0,0,0,0,0,0,0
-1876,25,Gelderland,Bronckhorst,0,0,0,0,0,0,0,0,1,1,2,2,2
-213,25,Gelderland,Brummen,0,0,0,0,0,0,0,0,0,0,0,0,0
-899,31,Limburg,Brunssum,0,0,0,0,0,0,0,0,0,0,0,0,0
-312,26,Utrecht,Bunnik,0,0,0,0,0,0,0,0,0,0,0,0,0
-313,26,Utrecht,Bunschoten,0,0,0,0,0,0,0,0,0,0,0,0,0
-214,25,Gelderland,Buren,0,0,0,0,0,0,0,0,0,0,0,0,0
-502,28,Zuid-Holland,Capelle aan den IJssel,0,0,0,0,0,0,0,0,0,0,0,0,0
-383,27,Noord-Holland,Castricum,0,0,0,0,0,0,0,0,0,0,0,0,0
-109,22,Drenthe,Coevorden,0,0,0,1,1,2,2,3,3,3,7,9,11
-1706,30,Noord-Brabant,Cranendonck,0,0,0,0,0,0,0,0,0,0,0,0,0
-1684,30,Noord-Brabant,Cuijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-216,25,Gelderland,Culemborg,0,0,0,0,0,0,0,1,1,1,1,1,1
-148,23,Overijssel,Dalfsen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1891,21,Friesland,Dantumadiel,0,0,0,0,0,0,0,0,0,0,0,0,0
-310,26,Utrecht,De Bilt,0,0,0,0,0,0,0,2,3,6,6,6,6
-1940,21,Friesland,De Fryske Marren,0,0,0,0,0,0,0,0,0,0,0,0,0
-736,26,Utrecht,De Ronde Venen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1690,22,Drenthe,De Wolden,0,0,0,0,0,0,0,0,0,0,0,0,0
-503,28,Zuid-Holland,Delft,0,0,1,1,1,1,1,1,1,1,1,1,1
-10,20,Groningen,Delfzijl,0,0,0,0,0,0,0,0,0,0,0,0,0
-400,27,Noord-Holland,Den Helder,0,0,0,0,0,0,0,0,0,0,0,0,0
-762,30,Noord-Brabant,Deurne,0,0,0,0,0,0,0,0,0,0,1,1,1
-150,23,Overijssel,Deventer,0,0,0,0,0,0,0,0,0,0,0,0,0
-384,27,Noord-Holland,Diemen,0,0,2,2,2,2,2,2,2,2,2,2,2
-1774,23,Overijssel,Dinkelland,0,0,0,0,0,0,0,0,0,1,2,2,2
-221,25,Gelderland,Doesburg,0,0,0,0,0,0,0,0,0,0,0,0,0
-222,25,Gelderland,Doetinchem,0,0,0,0,0,0,0,0,0,0,0,0,0
-766,30,Noord-Brabant,Dongen,0,0,0,0,0,0,0,1,1,2,3,3,3
-505,28,Zuid-Holland,Dordrecht,0,0,0,0,0,0,0,0,0,0,0,0,0
-498,27,Noord-Holland,Drechterland,0,0,0,0,0,0,0,0,0,0,0,0,0
-1719,30,Noord-Brabant,Drimmelen,0,0,0,0,0,0,0,0,0,0,0,0,0
-303,24,Flevoland,Dronten,0,0,0,0,0,0,0,0,0,0,0,0,0
-225,25,Gelderland,Druten,0,0,0,0,0,0,0,0,0,0,0,0,0
-226,25,Gelderland,Duiven,0,0,0,0,0,0,0,0,0,0,0,0,0
-1711,31,Limburg,Echt-Susteren,0,0,0,0,0,0,0,0,0,0,0,0,0
-385,27,Noord-Holland,Edam-Volendam,0,0,0,0,0,0,0,0,0,0,0,0,0
-228,25,Gelderland,Ede,0,0,0,0,0,0,0,0,0,0,0,0,0
-317,26,Utrecht,Eemnes,0,0,0,0,0,0,0,0,0,0,0,0,0
-770,30,Noord-Brabant,Eersel,0,0,0,0,0,0,0,0,0,0,0,0,0
-1903,31,Limburg,Eijsden-Margraten,0,0,0,0,0,0,0,0,0,0,0,0,0
-772,30,Noord-Brabant,Eindhoven,0,0,0,0,0,1,1,3,4,4,6,7,8
-230,25,Gelderland,Elburg,0,0,0,0,0,0,0,0,0,0,0,0,0
-114,22,Drenthe,Emmen,0,0,0,0,0,0,0,0,0,0,1,1,1
-388,27,Noord-Holland,Enkhuizen,0,0,0,0,0,0,0,0,0,0,0,0,0
-153,23,Overijssel,Enschede,0,0,0,0,0,0,0,0,0,0,0,0,0
-232,25,Gelderland,Epe,0,0,0,0,0,0,0,0,0,0,0,0,0
-233,25,Gelderland,Ermelo,0,0,0,0,0,0,0,0,0,0,0,0,1
-777,30,Noord-Brabant,Etten-Leur,0,0,0,0,0,0,0,0,0,0,0,1,3
-779,30,Noord-Brabant,Geertruidenberg,0,0,0,0,0,0,0,0,0,0,0,0,0
-1771,30,Noord-Brabant,Geldrop-Mierlo,0,0,0,0,0,0,0,0,0,0,0,0,0
-1652,30,Noord-Brabant,Gemert-Bakel,0,0,0,0,0,0,0,1,1,1,1,1,2
-907,31,Limburg,Gennep,0,0,0,0,0,0,0,0,0,0,0,0,0
-784,30,Noord-Brabant,Gilze en Rijen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1924,28,Zuid-Holland,Goeree-Overflakkee,0,0,0,0,0,0,0,0,0,0,0,0,0
-664,29,Zeeland,Goes,0,0,0,0,0,0,0,0,0,0,0,0,1
-785,30,Noord-Brabant,Goirle,0,0,0,0,0,0,0,0,0,0,1,4,4
-1942,27,Noord-Holland,Gooise Meren,0,0,0,0,0,0,1,1,2,2,2,2,2
-512,28,Zuid-Holland,Gorinchem,0,0,0,1,1,0,0,0,0,0,0,0,0
-513,28,Zuid-Holland,Gouda,0,0,0,0,0,0,0,0,0,0,0,0,1
-786,30,Noord-Brabant,Grave,0,0,0,0,0,0,0,0,0,0,0,0,0
-14,20,Groningen,Groningen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1729,31,Limburg,Gulpen-Wittem,0,0,0,0,0,0,0,0,0,0,0,0,0
-158,23,Overijssel,Haaksbergen,0,0,0,0,0,0,0,0,0,0,0,0,0
-788,30,Noord-Brabant,Haaren,0,0,0,0,0,0,0,0,0,0,0,2,2
-392,27,Noord-Holland,Haarlem,0,0,0,0,0,1,1,1,1,1,2,2,1
-394,27,Noord-Holland,Haarlemmermeer,0,0,0,0,0,0,0,0,0,0,0,0,0
-1655,30,Noord-Brabant,Halderberge,0,0,0,0,0,0,0,0,0,0,0,0,0
-160,23,Overijssel,Hardenberg,0,0,0,0,0,0,0,0,0,0,0,0,0
-243,25,Gelderland,Harderwijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-523,28,Zuid-Holland,Hardinxveld-Giessendam,0,0,0,0,0,0,1,2,4,4,4,4,5
-72,21,Friesland,Harlingen,0,0,0,0,0,0,0,0,0,0,0,0,0
-244,25,Gelderland,Hattem,0,0,0,0,0,0,0,0,0,0,0,0,0
-396,27,Noord-Holland,Heemskerk,0,0,0,0,0,0,0,0,0,0,0,0,0
-397,27,Noord-Holland,Heemstede,0,0,0,0,0,0,0,0,0,0,1,1,1
-246,25,Gelderland,Heerde,0,0,0,0,0,0,0,0,0,0,0,0,0
-74,21,Friesland,Heerenveen,0,0,0,0,0,0,0,0,0,0,0,0,0
-398,27,Noord-Holland,Heerhugowaard,0,0,0,0,0,0,0,0,0,0,0,0,0
-917,31,Limburg,Heerlen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1658,30,Noord-Brabant,Heeze-Leende,0,0,0,0,0,0,0,0,0,0,0,0,0
-399,27,Noord-Holland,Heiloo,0,0,0,0,0,0,0,0,0,0,0,0,0
-163,23,Overijssel,Hellendoorn,0,0,0,0,0,0,0,0,0,1,2,2,2
-530,28,Zuid-Holland,Hellevoetsluis,0,0,0,0,0,0,0,0,0,0,0,0,0
-794,30,Noord-Brabant,Helmond,0,0,0,0,1,1,4,4,4,4,5,7,11
-531,28,Zuid-Holland,Hendrik-Ido-Ambacht,0,0,0,0,0,0,0,0,0,0,0,0,0
-164,23,Overijssel,Hengelo,0,0,0,0,0,0,0,0,0,0,0,0,0
-1966,20,Groningen,Het Hogeland,0,0,0,0,0,0,0,0,0,0,0,0,0
-252,25,Gelderland,Heumen,0,0,0,0,0,0,0,0,0,0,0,0,0
-797,30,Noord-Brabant,Heusden,0,0,0,0,0,0,0,0,0,1,1,1,1
-534,28,Zuid-Holland,Hillegom,0,0,0,0,0,0,0,0,0,0,0,0,0
-798,30,Noord-Brabant,Hilvarenbeek,0,0,0,0,0,0,0,0,0,0,0,0,0
-402,27,Noord-Holland,Hilversum,0,0,0,0,0,0,0,0,0,0,0,0,0
-1963,28,Zuid-Holland,Hoeksche Waard,0,0,0,0,0,0,1,1,1,2,2,2,2
-1735,23,Overijssel,Hof van Twente,0,0,0,0,0,0,0,0,0,0,0,0,0
-1911,27,Noord-Holland,Hollands Kroon,0,0,0,0,0,0,0,0,0,0,0,0,0
-118,22,Drenthe,Hoogeveen,0,0,0,0,0,0,0,0,0,0,0,0,0
-405,27,Noord-Holland,Hoorn,0,0,0,0,0,0,0,0,0,0,0,0,0
-1507,31,Limburg,Horst aan de Maas,0,0,0,0,0,0,0,0,0,0,0,0,0
-321,26,Utrecht,Houten,0,0,0,0,1,1,1,9,9,13,13,13,13
-406,27,Noord-Holland,Huizen,0,0,0,0,0,0,0,0,0,0,1,1,1
-677,29,Zeeland,Hulst,0,0,0,0,0,0,0,0,0,0,0,0,0
-353,26,Utrecht,IJsselstein,0,0,0,0,0,0,0,0,0,0,1,1,1
-1884,28,Zuid-Holland,Kaag en Braassem,0,0,0,0,0,0,0,0,0,0,0,0,0
-166,23,Overijssel,Kampen,0,0,0,0,0,0,0,0,0,0,0,0,0
-678,29,Zeeland,Kapelle,0,0,0,0,0,0,0,0,0,0,0,0,0
-537,28,Zuid-Holland,Katwijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-928,31,Limburg,Kerkrade,0,0,0,0,0,0,0,0,0,0,0,0,0
-1598,27,Noord-Holland,Koggenland,0,0,0,0,0,0,0,0,0,0,0,0,0
-542,28,Zuid-Holland,Krimpen aan den IJssel,0,0,0,0,0,0,0,0,0,0,0,0,0
-1931,28,Zuid-Holland,Krimpenerwaard,0,0,0,0,0,0,0,0,0,0,1,1,1
-1659,30,Noord-Brabant,Laarbeek,0,0,0,0,0,0,0,0,0,0,0,0,0
-1685,30,Noord-Brabant,Landerd,0,0,0,0,0,0,0,0,0,0,2,2,1
-882,31,Limburg,Landgraaf,0,0,0,0,0,0,0,0,0,0,0,0,0
-415,27,Noord-Holland,Landsmeer,0,0,0,0,0,0,0,0,0,1,0,0,0
-416,27,Noord-Holland,Langedijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-1621,28,Zuid-Holland,Lansingerland,0,0,0,0,0,0,0,0,1,2,2,3,4
-417,27,Noord-Holland,Laren,0,0,0,0,0,0,0,0,0,0,0,0,0
-80,21,Friesland,Leeuwarden,0,0,0,0,0,0,0,0,0,0,0,0,0
-546,28,Zuid-Holland,Leiden,0,0,0,0,0,0,0,0,0,0,0,0,1
-547,28,Zuid-Holland,Leiderdorp,0,0,0,0,0,0,0,0,0,0,0,0,0
-1916,28,Zuid-Holland,Leidschendam-Voorburg,0,0,0,0,0,0,0,0,0,1,1,1,2
-995,24,Flevoland,Lelystad,0,0,0,0,0,0,0,0,0,0,0,0,0
-1640,31,Limburg,Leudal,0,0,0,0,0,0,0,0,0,0,0,1,2
-327,26,Utrecht,Leusden,0,0,0,0,0,0,0,0,0,0,0,0,0
-1705,25,Gelderland,Lingewaard,0,0,0,0,0,0,0,0,1,2,2,2,2
-553,28,Zuid-Holland,Lisse,0,0,0,0,0,0,0,0,0,0,0,0,0
-262,25,Gelderland,Lochem,0,0,0,0,0,0,0,0,0,0,0,0,0
-809,30,Noord-Brabant,Loon op Zand,0,0,0,0,1,4,5,5,5,7,7,7,7
-331,26,Utrecht,Lopik,0,0,0,0,0,0,0,0,0,0,0,0,0
-24,20,Groningen,Loppersum,0,0,0,0,0,0,0,0,0,0,0,0,0
-168,23,Overijssel,Losser,0,0,0,0,0,0,0,0,0,0,0,0,0
-263,25,Gelderland,Maasdriel,0,0,0,0,0,0,0,0,0,0,1,1,1
-1641,31,Limburg,Maasgouw,0,0,0,0,0,0,0,0,0,0,0,0,0
-556,28,Zuid-Holland,Maassluis,0,0,0,0,0,0,0,0,0,0,0,0,0
-935,31,Limburg,Maastricht,0,0,0,0,0,0,0,0,2,3,4,6,7
-420,27,Noord-Holland,Medemblik,0,0,0,0,0,0,0,0,0,0,0,0,0
-938,31,Limburg,Meerssen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1948,30,Noord-Brabant,Meierijstad,0,0,0,0,0,0,0,0,0,1,4,10,11
-119,22,Drenthe,Meppel,0,0,0,0,0,0,0,0,0,0,0,0,0
-687,29,Zeeland,Middelburg,0,0,0,0,0,0,0,0,0,0,0,0,0
-1842,28,Zuid-Holland,Midden-Delfland,0,0,0,0,0,0,0,0,0,0,0,0,0
-1731,22,Drenthe,Midden-Drenthe,0,0,0,0,0,0,0,0,0,0,0,0,0
-1952,20,Groningen,Midden-Groningen,0,0,0,0,0,0,0,0,0,0,0,0,0
-815,30,Noord-Brabant,Mill en Sint Hubert,0,0,0,0,0,0,0,0,0,0,0,0,0
-1709,30,Noord-Brabant,Moerdijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-1978,28,Zuid-Holland,Molenlanden,0,0,0,0,0,0,0,0,0,0,0,0,0
-1955,25,Gelderland,Montferland,0,0,0,0,0,0,0,0,0,0,0,0,0
-335,26,Utrecht,Montfoort,0,0,0,0,0,0,0,0,0,0,0,0,0
-944,31,Limburg,Mook en Middelaar,0,0,0,0,0,0,0,0,0,0,0,0,0
-1740,25,Gelderland,Neder-Betuwe,0,0,0,0,0,0,0,0,0,0,0,1,1
-946,31,Limburg,Nederweert,0,0,0,0,0,0,0,0,0,0,0,0,0
-356,26,Utrecht,Nieuwegein,0,0,0,0,0,0,0,0,0,0,0,0,0
-569,28,Zuid-Holland,Nieuwkoop,0,0,0,0,0,0,0,0,0,0,0,0,0
-267,25,Gelderland,Nijkerk,0,0,0,0,0,0,0,0,0,0,0,0,0
-268,25,Gelderland,Nijmegen,0,0,0,0,0,0,0,0,1,2,2,3,3
-1930,28,Zuid-Holland,Nissewaard,0,0,0,0,0,0,0,0,0,0,0,0,0
-1970,21,Friesland,Noardeast-Fryslân,0,0,0,0,0,0,0,0,0,0,0,0,0
-1695,29,Zeeland,Noord-Beveland,0,0,0,0,0,0,0,0,0,0,0,0,0
-1699,22,Drenthe,Noordenveld,0,0,0,0,0,0,0,0,0,0,0,0,0
-171,24,Flevoland,Noordoostpolder,0,0,0,0,0,0,0,0,0,0,0,0,0
-575,28,Zuid-Holland,Noordwijk,0,0,0,0,0,0,0,0,0,0,0,2,2
-820,30,Noord-Brabant,"Nuenen, Gerwen en Nederwetten",0,0,0,0,0,0,0,0,0,0,0,0,1
-302,25,Gelderland,Nunspeet,0,0,0,0,0,0,0,0,0,0,0,0,0
-579,28,Zuid-Holland,Oegstgeest,0,0,0,0,0,0,0,0,0,1,1,1,1
-823,30,Noord-Brabant,Oirschot,0,0,0,0,0,0,0,0,0,0,0,0,0
-824,30,Noord-Brabant,Oisterwijk,0,0,0,0,0,0,0,0,1,3,3,3,3
-1895,20,Groningen,Oldambt,0,0,0,0,0,0,0,0,0,0,0,0,0
-269,25,Gelderland,Oldebroek,0,0,0,0,0,0,0,0,0,0,0,0,0
-173,23,Overijssel,Oldenzaal,0,0,0,0,0,0,0,0,0,0,0,0,0
-1773,23,Overijssel,Olst-Wijhe,0,0,0,0,0,0,0,0,0,0,0,0,0
-175,23,Overijssel,Ommen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1586,25,Gelderland,Oost Gelre,0,0,0,0,0,0,0,0,0,0,0,0,0
-826,30,Noord-Brabant,Oosterhout,0,0,0,0,0,0,0,0,0,0,0,0,0
-85,21,Friesland,Ooststellingwerf,0,0,0,0,0,0,0,0,0,0,0,0,0
-431,27,Noord-Holland,Oostzaan,0,0,0,0,0,0,0,0,0,0,0,0,0
-432,27,Noord-Holland,Opmeer,0,0,0,0,0,0,0,0,0,0,0,0,0
-86,21,Friesland,Opsterland,0,0,0,0,0,0,0,0,0,0,0,0,2
-828,30,Noord-Brabant,Oss,0,0,0,0,1,1,1,1,1,1,1,1,1
-1509,25,Gelderland,Oude IJsselstreek,0,0,0,0,0,0,0,0,0,0,0,0,0
-437,27,Noord-Holland,Ouder-Amstel,0,0,0,0,0,0,0,0,0,0,0,0,0
-589,26,Utrecht,Oudewater,0,0,0,0,0,0,0,0,0,0,0,0,0
-1734,25,Gelderland,Overbetuwe,0,0,0,0,0,0,0,0,0,0,0,0,0
-590,28,Zuid-Holland,Papendrecht,0,0,0,0,0,0,0,0,0,0,0,0,0
-1894,31,Limburg,Peel en Maas,0,0,0,0,0,0,0,0,0,0,0,0,1
-765,20,Groningen,Pekela,0,0,0,0,0,0,0,0,0,0,0,0,0
-1926,28,Zuid-Holland,Pijnacker-Nootdorp,0,0,0,0,0,0,0,2,2,2,2,2,4
-439,27,Noord-Holland,Purmerend,0,0,0,0,0,0,0,0,0,0,0,0,0
-273,25,Gelderland,Putten,0,0,0,0,0,0,0,0,0,0,0,0,0
-177,23,Overijssel,Raalte,0,0,0,0,0,0,0,0,0,0,0,0,0
-703,29,Zeeland,Reimerswaal,0,0,0,0,0,0,0,0,0,0,0,0,0
-274,25,Gelderland,Renkum,0,0,0,0,0,0,0,0,1,1,5,5,5
-339,26,Utrecht,Renswoude,0,0,0,0,0,0,0,0,0,0,0,0,0
-1667,30,Noord-Brabant,Reusel-De Mierden,0,0,0,0,0,0,0,0,0,0,0,0,0
-275,25,Gelderland,Rheden,0,0,0,0,0,0,0,0,0,0,0,0,1
-340,26,Utrecht,Rhenen,0,0,0,0,0,0,0,0,0,0,0,0,0
-597,28,Zuid-Holland,Ridderkerk,0,0,0,0,0,0,0,0,0,1,1,1,1
-1742,23,Overijssel,Rijssen-Holten,0,0,0,0,0,0,0,0,0,0,0,0,0
-603,28,Zuid-Holland,Rijswijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-1669,31,Limburg,Roerdalen,0,0,0,0,0,0,0,0,0,0,0,0,0
-957,31,Limburg,Roermond,0,0,0,0,0,0,0,0,0,0,1,1,1
-1674,30,Noord-Brabant,Roosendaal,0,0,0,0,0,0,0,0,0,0,0,0,0
-599,28,Zuid-Holland,Rotterdam,0,0,0,0,0,1,3,5,9,11,14,14,15
-277,25,Gelderland,Rozendaal,0,0,0,0,0,0,0,0,0,0,0,0,0
-840,30,Noord-Brabant,Rucphen,0,0,0,0,0,0,0,0,0,0,0,0,0
-441,27,Noord-Holland,Schagen,0,0,0,0,0,0,0,0,0,0,0,0,1
-279,25,Gelderland,Scherpenzeel,0,0,0,0,0,0,0,0,0,0,0,0,0
-606,28,Zuid-Holland,Schiedam,0,0,0,0,0,0,0,0,0,0,0,0,0
-88,21,Friesland,Schiermonnikoog,0,0,0,0,0,0,0,0,0,0,0,0,0
-1676,29,Zeeland,Schouwen-Duiveland,0,0,0,0,0,0,0,0,0,1,1,1,2
-965,31,Limburg,Simpelveld,0,0,0,0,0,0,0,0,2,2,2,2,2
-1702,30,Noord-Brabant,Sint Anthonis,0,0,0,0,0,0,0,0,0,0,0,0,0
-845,30,Noord-Brabant,Sint-Michielsgestel,0,0,0,0,0,0,0,1,2,3,5,5,5
-1883,31,Limburg,Sittard-Geleen,0,0,0,0,0,0,0,2,5,4,7,8,13
-610,28,Zuid-Holland,Sliedrecht,0,0,0,0,0,0,0,0,0,0,0,0,0
-1714,29,Zeeland,Sluis,0,0,0,0,0,0,0,0,0,0,0,0,0
-90,21,Friesland,Smallingerland,0,0,0,0,0,0,0,0,0,0,0,0,0
-342,26,Utrecht,Soest,0,0,0,0,0,0,0,4,6,7,7,7,8
-847,30,Noord-Brabant,Someren,0,0,0,0,0,0,0,0,0,0,0,0,0
-848,30,Noord-Brabant,Son en Breugel,0,0,0,0,0,0,0,0,0,0,0,0,0
-37,20,Groningen,Stadskanaal,0,0,0,0,0,0,0,0,0,0,0,0,0
-180,23,Overijssel,Staphorst,0,0,0,0,0,0,0,0,0,0,0,0,0
-532,27,Noord-Holland,Stede Broec,0,0,0,0,0,0,0,0,0,0,0,0,0
-851,30,Noord-Brabant,Steenbergen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1708,23,Overijssel,Steenwijkerland,0,0,0,0,0,0,0,0,0,0,0,0,0
-971,31,Limburg,Stein,0,0,0,0,0,0,0,0,0,0,0,0,0
-1904,26,Utrecht,Stichtse Vecht,0,0,0,0,0,0,0,2,3,4,5,5,5
-1900,21,Friesland,Súdwest-Fryslân,0,0,0,0,0,0,0,0,0,0,0,0,0
-715,29,Zeeland,Terneuzen,0,0,0,0,0,0,0,0,0,0,0,0,0
-93,21,Friesland,Terschelling,0,0,0,0,0,0,0,0,0,0,0,0,0
-448,27,Noord-Holland,Texel,0,0,0,0,0,0,0,0,0,0,0,0,0
-1525,28,Zuid-Holland,Teylingen,0,0,0,0,0,0,0,0,0,0,0,0,0
-716,29,Zeeland,Tholen,0,0,0,0,0,0,0,0,0,0,0,0,0
-281,25,Gelderland,Tiel,0,0,0,0,0,0,0,0,0,0,0,1,1
-855,30,Noord-Brabant,Tilburg,1,1,3,4,4,2,3,3,4,10,12,27,29
-183,23,Overijssel,Tubbergen,0,0,0,0,0,0,0,0,0,0,0,1,1
-1700,23,Overijssel,Twenterand,0,0,0,0,0,0,0,0,0,0,0,0,0
-1730,22,Drenthe,Tynaarlo,0,0,0,0,0,0,0,0,0,0,0,0,0
-737,21,Friesland,Tytsjerksteradiel,0,0,0,0,0,0,0,0,0,0,0,0,0
-856,30,Noord-Brabant,Uden,0,0,0,0,0,0,0,0,2,6,7,12,13
-450,27,Noord-Holland,Uitgeest,0,0,0,0,0,0,0,0,0,0,0,0,0
-451,27,Noord-Holland,Uithoorn,0,0,0,0,0,0,0,0,0,0,0,0,0
-184,24,Flevoland,Urk,0,0,0,0,0,0,0,0,0,0,0,0,0
-344,26,Utrecht,Utrecht,0,0,0,0,2,2,2,6,8,11,13,13,14
-1581,26,Utrecht,Utrechtse Heuvelrug,0,0,0,0,0,0,0,0,1,1,2,2,2
-981,31,Limburg,Vaals,0,0,0,0,0,0,0,0,0,0,0,0,0
-994,31,Limburg,Valkenburg aan de Geul,0,0,0,0,0,0,0,0,0,0,0,0,0
-858,30,Noord-Brabant,Valkenswaard,0,0,0,0,0,0,0,0,0,0,0,0,0
-47,20,Groningen,Veendam,0,0,0,0,0,0,0,0,0,0,0,0,0
-345,26,Utrecht,Veenendaal,0,0,0,0,0,0,0,0,0,0,0,0,0
-717,29,Zeeland,Veere,0,0,0,0,0,0,0,0,0,0,0,0,0
-861,30,Noord-Brabant,Veldhoven,0,0,0,0,0,0,0,0,0,0,0,1,1
-453,27,Noord-Holland,Velsen,0,0,0,0,0,0,0,0,0,0,0,0,0
-983,31,Limburg,Venlo,0,0,0,0,0,0,0,0,0,0,0,1,1
-984,31,Limburg,Venray,0,0,0,0,0,0,0,0,0,0,0,0,0
-1961,26,Utrecht,Vijfheerenlanden,0,0,0,0,0,0,0,0,0,1,1,1,1
-622,28,Zuid-Holland,Vlaardingen,0,0,0,0,0,0,0,0,0,0,0,0,0
-96,21,Friesland,Vlieland,0,0,0,0,0,0,0,0,0,0,0,0,0
-718,29,Zeeland,Vlissingen,0,0,0,0,0,0,0,0,0,0,0,0,0
-986,31,Limburg,Voerendaal,0,0,0,0,0,0,0,0,0,0,0,0,0
-626,28,Zuid-Holland,Voorschoten,0,0,0,0,0,0,0,0,0,0,0,0,0
-285,25,Gelderland,Voorst,0,0,0,0,0,0,0,0,0,0,0,1,1
-865,30,Noord-Brabant,Vught,0,0,0,0,0,0,0,0,0,0,0,1,1
-1949,21,Friesland,Waadhoeke,0,0,0,0,0,0,0,0,0,0,0,0,0
-866,30,Noord-Brabant,Waalre,0,0,0,0,0,0,0,0,1,1,1,1,1
-867,30,Noord-Brabant,Waalwijk,0,0,0,0,0,0,0,0,1,3,5,5,5
-627,28,Zuid-Holland,Waddinxveen,0,0,0,0,0,0,0,0,0,0,0,0,1
-289,25,Gelderland,Wageningen,0,0,0,0,0,0,0,0,0,0,0,0,0
-629,28,Zuid-Holland,Wassenaar,0,0,0,0,0,0,0,0,0,0,0,0,0
-852,27,Noord-Holland,Waterland,0,0,0,0,0,0,0,0,0,0,1,1,1
-988,31,Limburg,Weert,0,0,0,0,0,0,0,0,0,0,0,0,0
-457,27,Noord-Holland,Weesp,0,0,0,0,0,0,0,0,0,0,0,0,0
-1960,25,Gelderland,West Betuwe,0,0,0,0,0,0,0,0,1,2,2,2,2
-668,25,Gelderland,West Maas en Waal,0,0,0,0,0,0,0,0,1,1,1,1,1
-1969,20,Groningen,Westerkwartier,0,0,0,0,0,0,0,0,0,0,0,0,0
-1701,22,Drenthe,Westerveld,0,0,0,0,0,0,0,0,0,0,0,0,0
-293,25,Gelderland,Westervoort,0,0,0,0,0,0,0,0,0,0,0,0,0
-1950,20,Groningen,Westerwolde,0,0,0,0,0,0,0,0,0,0,0,0,0
-1783,28,Zuid-Holland,Westland,0,0,0,0,0,0,0,0,0,0,0,0,0
-98,21,Friesland,Weststellingwerf,0,0,0,0,0,0,0,0,0,0,0,0,0
-614,28,Zuid-Holland,Westvoorne,0,0,0,0,0,0,0,0,1,1,1,1,1
-189,23,Overijssel,Wierden,0,0,0,0,0,0,0,0,0,0,0,0,0
-296,25,Gelderland,Wijchen,0,0,0,0,0,0,0,0,0,0,1,1,1
-1696,27,Noord-Holland,Wijdemeren,0,0,0,0,0,0,0,0,0,0,0,0,0
-352,26,Utrecht,Wijk bij Duurstede,0,0,0,0,0,0,0,0,1,1,1,1,1
-294,25,Gelderland,Winterswijk,0,0,0,0,0,0,0,0,0,0,0,0,0
-873,30,Noord-Brabant,Woensdrecht,0,0,0,0,0,0,0,0,0,0,0,0,0
-632,26,Utrecht,Woerden,0,0,0,0,0,0,0,0,2,2,2,2,2
-880,27,Noord-Holland,Wormerland,0,0,0,0,0,0,0,0,0,0,0,0,0
-351,26,Utrecht,Woudenberg,0,0,0,0,0,0,0,0,0,0,0,0,0
-479,27,Noord-Holland,Zaanstad,0,0,0,0,0,0,0,0,0,2,2,2,2
-297,25,Gelderland,Zaltbommel,0,0,0,0,0,0,1,1,1,1,1,1,1
-473,27,Noord-Holland,Zandvoort,0,0,0,0,0,0,0,0,0,0,0,0,0
-50,24,Flevoland,Zeewolde,0,0,0,0,0,0,0,1,1,1,1,1,1
-355,26,Utrecht,Zeist,0,0,0,0,0,0,0,0,0,1,1,1,2
-299,25,Gelderland,Zevenaar,0,0,0,0,0,0,0,0,0,0,0,0,0
-637,28,Zuid-Holland,Zoetermeer,0,0,0,0,0,0,0,0,0,0,0,0,0
-638,28,Zuid-Holland,Zoeterwoude,0,0,0,0,0,0,0,0,0,0,0,0,0
-1892,28,Zuid-Holland,Zuidplas,0,0,0,0,0,0,0,0,0,0,0,0,0
-879,30,Noord-Brabant,Zundert,0,0,0,0,0,0,0,0,0,0,1,1,1
-301,25,Gelderland,Zutphen,0,0,0,0,0,0,0,0,0,0,0,0,0
-1896,23,Overijssel,Zwartewaterland,0,0,0,0,0,0,0,0,0,0,0,0,0
-642,28,Zuid-Holland,Zwijndrecht,0,0,0,0,0,0,0,0,0,0,0,0,0
-193,23,Overijssel,Zwolle,0,0,0,0,0,0,0,0,0,0,1,1,1
+gemeente_id,Provinciecode,Provincienaam,Gemeentenaam,27-02-2020,28-02-2020,29-02-2020,01-03-2020,02-03-2020,03-03-2020,04-03-2020,05-03-2020,06-03-2020,07-03-2020,08-03-2020,09-03-2020,10-03-2020,11-03-2020
+518,28,Zuid-Holland,'s-Gravenhage,0,0,0,0,0,0,0,0,3,2,2,2,3,7
+796,30,Noord-Brabant,'s-Hertogenbosch,0,0,0,0,0,0,0,0,0,2,2,3,4,5
+1680,22,Drenthe,Aa en Hunze,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+358,27,Noord-Holland,Aalsmeer,0,0,0,0,0,0,0,0,0,0,0,0,2,2
+197,25,Gelderland,Aalten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+59,21,Friesland,Achtkarspelen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+482,28,Zuid-Holland,Alblasserdam,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+613,28,Zuid-Holland,Albrandswaard,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+361,27,Noord-Holland,Alkmaar,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+141,23,Overijssel,Almelo,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+34,24,Flevoland,Almere,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+484,28,Zuid-Holland,Alphen aan den Rijn,0,0,0,0,1,1,1,1,1,1,1,1,1,2
+1723,30,Noord-Brabant,Alphen-Chaam,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1959,30,Noord-Brabant,Altena,0,0,0,1,1,3,3,4,4,4,4,4,4,4
+60,21,Friesland,Ameland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+307,26,Utrecht,Amersfoort,0,0,0,0,0,0,0,0,0,0,0,0,0,2
+362,27,Noord-Holland,Amstelveen,0,0,0,0,0,0,0,0,0,1,1,2,2,2
+363,27,Noord-Holland,Amsterdam,0,1,1,1,1,0,1,2,2,3,4,4,8,8
+200,25,Gelderland,Apeldoorn,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+3,20,Groningen,Appingedam,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+202,25,Gelderland,Arnhem,0,0,0,0,0,0,0,0,1,1,3,2,2,3
+106,22,Drenthe,Assen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+743,30,Noord-Brabant,Asten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+744,30,Noord-Brabant,Baarle-Nassau,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+308,26,Utrecht,Baarn,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+489,28,Zuid-Holland,Barendrecht,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+203,25,Gelderland,Barneveld,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+888,31,Limburg,Beek,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1954,31,Limburg,Beekdaelen,0,0,0,0,0,0,0,0,1,2,2,4,5,8
+370,27,Noord-Holland,Beemster,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+889,31,Limburg,Beesel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1945,25,Gelderland,Berg en Dal,0,0,0,0,0,0,0,0,0,0,0,0,1,3
+1724,30,Noord-Brabant,Bergeijk,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+893,31,Limburg,Bergen (L.),0,0,0,0,0,0,0,0,0,0,0,0,0,0
+373,27,Noord-Holland,Bergen (NH.),0,0,0,0,0,0,0,0,0,0,0,0,0,0
+748,30,Noord-Brabant,Bergen op Zoom,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+1859,25,Gelderland,Berkelland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1721,30,Noord-Brabant,Bernheze,0,0,0,0,0,0,0,0,0,1,1,2,2,2
+753,30,Noord-Brabant,Best,0,0,0,0,0,0,0,1,1,1,2,2,2,3
+209,25,Gelderland,Beuningen,0,0,0,0,0,0,0,0,1,1,5,3,3,3
+375,27,Noord-Holland,Beverwijk,0,0,0,0,0,0,1,2,2,3,4,4,4,4
+1728,30,Noord-Brabant,Bladel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+376,27,Noord-Holland,Blaricum,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+377,27,Noord-Holland,Bloemendaal,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+1901,28,Zuid-Holland,Bodegraven-Reeuwijk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+755,30,Noord-Brabant,Boekel,0,0,0,0,0,0,0,0,0,0,1,1,2,7
+1681,22,Drenthe,Borger-Odoorn,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+147,23,Overijssel,Borne,0,0,0,0,0,0,0,1,1,2,3,3,3,3
+654,29,Zeeland,Borsele,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+756,30,Noord-Brabant,Boxmeer,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+757,30,Noord-Brabant,Boxtel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+758,30,Noord-Brabant,Breda,0,0,0,0,0,0,0,0,2,2,16,19,27,32
+501,28,Zuid-Holland,Brielle,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1876,25,Gelderland,Bronckhorst,0,0,0,0,0,0,0,0,1,1,2,2,2,2
+213,25,Gelderland,Brummen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+899,31,Limburg,Brunssum,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+312,26,Utrecht,Bunnik,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+313,26,Utrecht,Bunschoten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+214,25,Gelderland,Buren,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+502,28,Zuid-Holland,Capelle aan den IJssel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+383,27,Noord-Holland,Castricum,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+109,22,Drenthe,Coevorden,0,0,0,1,1,2,2,3,3,3,7,9,11,11
+1706,30,Noord-Brabant,Cranendonck,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1684,30,Noord-Brabant,Cuijk,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+216,25,Gelderland,Culemborg,0,0,0,0,0,0,0,1,1,1,1,1,1,1
+148,23,Overijssel,Dalfsen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1891,21,Friesland,Dantumadiel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+310,26,Utrecht,De Bilt,0,0,0,0,0,0,0,2,3,6,6,6,6,10
+1940,21,Friesland,De Fryske Marren,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+736,26,Utrecht,De Ronde Venen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1690,22,Drenthe,De Wolden,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+503,28,Zuid-Holland,Delft,0,0,1,1,1,1,1,1,1,1,1,1,1,1
+10,20,Groningen,Delfzijl,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+400,27,Noord-Holland,Den Helder,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+762,30,Noord-Brabant,Deurne,0,0,0,0,0,0,0,0,0,0,1,1,1,3
+150,23,Overijssel,Deventer,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+384,27,Noord-Holland,Diemen,0,0,2,2,2,2,2,2,2,2,2,2,2,2
+1774,23,Overijssel,Dinkelland,0,0,0,0,0,0,0,0,0,1,2,2,2,2
+221,25,Gelderland,Doesburg,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+222,25,Gelderland,Doetinchem,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+766,30,Noord-Brabant,Dongen,0,0,0,0,0,0,0,1,1,2,3,3,3,4
+505,28,Zuid-Holland,Dordrecht,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+498,27,Noord-Holland,Drechterland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1719,30,Noord-Brabant,Drimmelen,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+303,24,Flevoland,Dronten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+225,25,Gelderland,Druten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+226,25,Gelderland,Duiven,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1711,31,Limburg,Echt-Susteren,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+385,27,Noord-Holland,Edam-Volendam,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+228,25,Gelderland,Ede,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+317,26,Utrecht,Eemnes,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+770,30,Noord-Brabant,Eersel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1903,31,Limburg,Eijsden-Margraten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+772,30,Noord-Brabant,Eindhoven,0,0,0,0,0,1,1,3,4,4,6,7,8,8
+230,25,Gelderland,Elburg,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+114,22,Drenthe,Emmen,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+388,27,Noord-Holland,Enkhuizen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+153,23,Overijssel,Enschede,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+232,25,Gelderland,Epe,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+233,25,Gelderland,Ermelo,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+777,30,Noord-Brabant,Etten-Leur,0,0,0,0,0,0,0,0,0,0,0,1,3,5
+779,30,Noord-Brabant,Geertruidenberg,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1771,30,Noord-Brabant,Geldrop-Mierlo,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1652,30,Noord-Brabant,Gemert-Bakel,0,0,0,0,0,0,0,1,1,1,1,1,2,4
+907,31,Limburg,Gennep,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+784,30,Noord-Brabant,Gilze en Rijen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1924,28,Zuid-Holland,Goeree-Overflakkee,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+664,29,Zeeland,Goes,0,0,0,0,0,0,0,0,0,0,0,0,1,2
+785,30,Noord-Brabant,Goirle,0,0,0,0,0,0,0,0,0,0,1,4,4,6
+1942,27,Noord-Holland,Gooise Meren,0,0,0,0,0,0,1,1,2,2,2,2,2,3
+512,28,Zuid-Holland,Gorinchem,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+513,28,Zuid-Holland,Gouda,0,0,0,0,0,0,0,0,0,0,0,0,1,2
+786,30,Noord-Brabant,Grave,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+14,20,Groningen,Groningen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1729,31,Limburg,Gulpen-Wittem,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+158,23,Overijssel,Haaksbergen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+788,30,Noord-Brabant,Haaren,0,0,0,0,0,0,0,0,0,0,0,2,2,6
+392,27,Noord-Holland,Haarlem,0,0,0,0,0,1,1,1,1,1,2,2,1,1
+394,27,Noord-Holland,Haarlemmermeer,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1655,30,Noord-Brabant,Halderberge,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+160,23,Overijssel,Hardenberg,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+243,25,Gelderland,Harderwijk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+523,28,Zuid-Holland,Hardinxveld-Giessendam,0,0,0,0,0,0,1,2,4,4,4,4,5,5
+72,21,Friesland,Harlingen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+244,25,Gelderland,Hattem,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+396,27,Noord-Holland,Heemskerk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+397,27,Noord-Holland,Heemstede,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+246,25,Gelderland,Heerde,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+74,21,Friesland,Heerenveen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+398,27,Noord-Holland,Heerhugowaard,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+917,31,Limburg,Heerlen,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1658,30,Noord-Brabant,Heeze-Leende,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+399,27,Noord-Holland,Heiloo,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+163,23,Overijssel,Hellendoorn,0,0,0,0,0,0,0,0,0,1,2,2,2,2
+530,28,Zuid-Holland,Hellevoetsluis,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+794,30,Noord-Brabant,Helmond,0,0,0,0,1,1,4,4,4,4,5,7,11,12
+531,28,Zuid-Holland,Hendrik-Ido-Ambacht,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+164,23,Overijssel,Hengelo,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1966,20,Groningen,Het Hogeland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+252,25,Gelderland,Heumen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+797,30,Noord-Brabant,Heusden,0,0,0,0,0,0,0,0,0,1,1,1,1,2
+534,28,Zuid-Holland,Hillegom,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+798,30,Noord-Brabant,Hilvarenbeek,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+402,27,Noord-Holland,Hilversum,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1963,28,Zuid-Holland,Hoeksche Waard,0,0,0,0,0,0,1,1,1,2,2,2,2,2
+1735,23,Overijssel,Hof van Twente,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1911,27,Noord-Holland,Hollands Kroon,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+118,22,Drenthe,Hoogeveen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+405,27,Noord-Holland,Hoorn,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1507,31,Limburg,Horst aan de Maas,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+321,26,Utrecht,Houten,0,0,0,0,1,1,1,9,9,13,13,13,13,13
+406,27,Noord-Holland,Huizen,0,0,0,0,0,0,0,0,0,0,1,1,1,2
+677,29,Zeeland,Hulst,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+353,26,Utrecht,IJsselstein,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+1884,28,Zuid-Holland,Kaag en Braassem,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+166,23,Overijssel,Kampen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+678,29,Zeeland,Kapelle,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+537,28,Zuid-Holland,Katwijk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+928,31,Limburg,Kerkrade,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1598,27,Noord-Holland,Koggenland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+542,28,Zuid-Holland,Krimpen aan den IJssel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1931,28,Zuid-Holland,Krimpenerwaard,0,0,0,0,0,0,0,0,0,0,1,1,1,3
+1659,30,Noord-Brabant,Laarbeek,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1685,30,Noord-Brabant,Landerd,0,0,0,0,0,0,0,0,0,0,2,2,1,2
+882,31,Limburg,Landgraaf,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+415,27,Noord-Holland,Landsmeer,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+416,27,Noord-Holland,Langedijk,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1621,28,Zuid-Holland,Lansingerland,0,0,0,0,0,0,0,0,1,2,2,3,4,4
+417,27,Noord-Holland,Laren,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+80,21,Friesland,Leeuwarden,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+546,28,Zuid-Holland,Leiden,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+547,28,Zuid-Holland,Leiderdorp,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1916,28,Zuid-Holland,Leidschendam-Voorburg,0,0,0,0,0,0,0,0,0,1,1,1,2,2
+995,24,Flevoland,Lelystad,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1640,31,Limburg,Leudal,0,0,0,0,0,0,0,0,0,0,0,1,2,3
+327,26,Utrecht,Leusden,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1705,25,Gelderland,Lingewaard,0,0,0,0,0,0,0,0,1,2,2,2,2,2
+553,28,Zuid-Holland,Lisse,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+262,25,Gelderland,Lochem,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+809,30,Noord-Brabant,Loon op Zand,0,0,0,0,1,4,5,5,5,7,7,7,7,7
+331,26,Utrecht,Lopik,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,20,Groningen,Loppersum,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+168,23,Overijssel,Losser,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+263,25,Gelderland,Maasdriel,0,0,0,0,0,0,0,0,0,0,1,1,1,0
+1641,31,Limburg,Maasgouw,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+556,28,Zuid-Holland,Maassluis,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+935,31,Limburg,Maastricht,0,0,0,0,0,0,0,0,2,3,4,6,7,8
+420,27,Noord-Holland,Medemblik,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+938,31,Limburg,Meerssen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1948,30,Noord-Brabant,Meierijstad,0,0,0,0,0,0,0,0,0,1,4,10,11,13
+119,22,Drenthe,Meppel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+687,29,Zeeland,Middelburg,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1842,28,Zuid-Holland,Midden-Delfland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1731,22,Drenthe,Midden-Drenthe,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1952,20,Groningen,Midden-Groningen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+815,30,Noord-Brabant,Mill en Sint Hubert,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1709,30,Noord-Brabant,Moerdijk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1978,28,Zuid-Holland,Molenlanden,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1955,25,Gelderland,Montferland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+335,26,Utrecht,Montfoort,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+944,31,Limburg,Mook en Middelaar,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1740,25,Gelderland,Neder-Betuwe,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+946,31,Limburg,Nederweert,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+356,26,Utrecht,Nieuwegein,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+569,28,Zuid-Holland,Nieuwkoop,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+267,25,Gelderland,Nijkerk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+268,25,Gelderland,Nijmegen,0,0,0,0,0,0,0,0,1,2,2,3,3,4
+1930,28,Zuid-Holland,Nissewaard,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1970,21,Friesland,Noardeast-Fryslân,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1695,29,Zeeland,Noord-Beveland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1699,22,Drenthe,Noordenveld,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+171,24,Flevoland,Noordoostpolder,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+575,28,Zuid-Holland,Noordwijk,0,0,0,0,0,0,0,0,0,0,0,2,2,2
+820,30,Noord-Brabant,"Nuenen, Gerwen en Nederwetten",0,0,0,0,0,0,0,0,0,0,0,0,1,1
+302,25,Gelderland,Nunspeet,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+579,28,Zuid-Holland,Oegstgeest,0,0,0,0,0,0,0,0,0,1,1,1,1,2
+823,30,Noord-Brabant,Oirschot,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+824,30,Noord-Brabant,Oisterwijk,0,0,0,0,0,0,0,0,1,3,3,3,3,4
+1895,20,Groningen,Oldambt,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+269,25,Gelderland,Oldebroek,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+173,23,Overijssel,Oldenzaal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1773,23,Overijssel,Olst-Wijhe,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+175,23,Overijssel,Ommen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1586,25,Gelderland,Oost Gelre,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+826,30,Noord-Brabant,Oosterhout,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+85,21,Friesland,Ooststellingwerf,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+431,27,Noord-Holland,Oostzaan,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+432,27,Noord-Holland,Opmeer,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+86,21,Friesland,Opsterland,0,0,0,0,0,0,0,0,0,0,0,0,2,2
+828,30,Noord-Brabant,Oss,0,0,0,0,1,1,1,1,1,1,1,1,1,2
+1509,25,Gelderland,Oude IJsselstreek,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+437,27,Noord-Holland,Ouder-Amstel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+589,26,Utrecht,Oudewater,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1734,25,Gelderland,Overbetuwe,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+590,28,Zuid-Holland,Papendrecht,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1894,31,Limburg,Peel en Maas,0,0,0,0,0,0,0,0,0,0,0,0,1,3
+765,20,Groningen,Pekela,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1926,28,Zuid-Holland,Pijnacker-Nootdorp,0,0,0,0,0,0,0,2,2,2,2,2,4,5
+439,27,Noord-Holland,Purmerend,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+273,25,Gelderland,Putten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+177,23,Overijssel,Raalte,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+703,29,Zeeland,Reimerswaal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+274,25,Gelderland,Renkum,0,0,0,0,0,0,0,0,1,1,5,5,5,7
+339,26,Utrecht,Renswoude,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1667,30,Noord-Brabant,Reusel-De Mierden,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+275,25,Gelderland,Rheden,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+340,26,Utrecht,Rhenen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+597,28,Zuid-Holland,Ridderkerk,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+1742,23,Overijssel,Rijssen-Holten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+603,28,Zuid-Holland,Rijswijk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1669,31,Limburg,Roerdalen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+957,31,Limburg,Roermond,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+1674,30,Noord-Brabant,Roosendaal,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+599,28,Zuid-Holland,Rotterdam,0,0,0,0,0,1,3,5,9,11,14,14,15,15
+277,25,Gelderland,Rozendaal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+840,30,Noord-Brabant,Rucphen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+441,27,Noord-Holland,Schagen,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+279,25,Gelderland,Scherpenzeel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+606,28,Zuid-Holland,Schiedam,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+88,21,Friesland,Schiermonnikoog,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1676,29,Zeeland,Schouwen-Duiveland,0,0,0,0,0,0,0,0,0,1,1,1,2,2
+965,31,Limburg,Simpelveld,0,0,0,0,0,0,0,0,2,2,2,2,2,2
+1702,30,Noord-Brabant,Sint Anthonis,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+845,30,Noord-Brabant,Sint-Michielsgestel,0,0,0,0,0,0,0,1,2,3,5,5,5,5
+1883,31,Limburg,Sittard-Geleen,0,0,0,0,0,0,0,2,5,4,7,8,13,20
+610,28,Zuid-Holland,Sliedrecht,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1714,29,Zeeland,Sluis,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+90,21,Friesland,Smallingerland,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+342,26,Utrecht,Soest,0,0,0,0,0,0,0,4,6,7,7,7,8,8
+847,30,Noord-Brabant,Someren,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+848,30,Noord-Brabant,Son en Breugel,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+37,20,Groningen,Stadskanaal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+180,23,Overijssel,Staphorst,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+532,27,Noord-Holland,Stede Broec,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+851,30,Noord-Brabant,Steenbergen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1708,23,Overijssel,Steenwijkerland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+971,31,Limburg,Stein,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+1904,26,Utrecht,Stichtse Vecht,0,0,0,0,0,0,0,2,3,4,5,5,5,5
+1900,21,Friesland,Súdwest-Fryslân,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+715,29,Zeeland,Terneuzen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+93,21,Friesland,Terschelling,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+448,27,Noord-Holland,Texel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1525,28,Zuid-Holland,Teylingen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+716,29,Zeeland,Tholen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+281,25,Gelderland,Tiel,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+855,30,Noord-Brabant,Tilburg,1,1,3,4,4,2,3,3,4,10,12,27,29,42
+183,23,Overijssel,Tubbergen,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+1700,23,Overijssel,Twenterand,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1730,22,Drenthe,Tynaarlo,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+737,21,Friesland,Tytsjerksteradiel,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+856,30,Noord-Brabant,Uden,0,0,0,0,0,0,0,0,2,6,7,12,13,18
+450,27,Noord-Holland,Uitgeest,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+451,27,Noord-Holland,Uithoorn,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+184,24,Flevoland,Urk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+344,26,Utrecht,Utrecht,0,0,0,0,2,2,2,6,8,11,13,13,14,18
+1581,26,Utrecht,Utrechtse Heuvelrug,0,0,0,0,0,0,0,0,1,1,2,2,2,2
+981,31,Limburg,Vaals,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+994,31,Limburg,Valkenburg aan de Geul,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+858,30,Noord-Brabant,Valkenswaard,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+47,20,Groningen,Veendam,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+345,26,Utrecht,Veenendaal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+717,29,Zeeland,Veere,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+861,30,Noord-Brabant,Veldhoven,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+453,27,Noord-Holland,Velsen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+983,31,Limburg,Venlo,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+984,31,Limburg,Venray,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1961,26,Utrecht,Vijfheerenlanden,0,0,0,0,0,0,0,0,0,1,1,1,1,1
+622,28,Zuid-Holland,Vlaardingen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+96,21,Friesland,Vlieland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+718,29,Zeeland,Vlissingen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+986,31,Limburg,Voerendaal,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+626,28,Zuid-Holland,Voorschoten,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+285,25,Gelderland,Voorst,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+865,30,Noord-Brabant,Vught,0,0,0,0,0,0,0,0,0,0,0,1,1,1
+1949,21,Friesland,Waadhoeke,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+866,30,Noord-Brabant,Waalre,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+867,30,Noord-Brabant,Waalwijk,0,0,0,0,0,0,0,0,1,3,5,5,5,6
+627,28,Zuid-Holland,Waddinxveen,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+289,25,Gelderland,Wageningen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+629,28,Zuid-Holland,Wassenaar,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+852,27,Noord-Holland,Waterland,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+988,31,Limburg,Weert,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+457,27,Noord-Holland,Weesp,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1960,25,Gelderland,West Betuwe,0,0,0,0,0,0,0,0,1,2,2,2,2,2
+668,25,Gelderland,West Maas en Waal,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+1969,20,Groningen,Westerkwartier,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1701,22,Drenthe,Westerveld,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+293,25,Gelderland,Westervoort,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1950,20,Groningen,Westerwolde,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1783,28,Zuid-Holland,Westland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+98,21,Friesland,Weststellingwerf,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+614,28,Zuid-Holland,Westvoorne,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+189,23,Overijssel,Wierden,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+296,25,Gelderland,Wijchen,0,0,0,0,0,0,0,0,0,0,1,1,1,1
+1696,27,Noord-Holland,Wijdemeren,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+352,26,Utrecht,Wijk bij Duurstede,0,0,0,0,0,0,0,0,1,1,1,1,1,1
+294,25,Gelderland,Winterswijk,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+873,30,Noord-Brabant,Woensdrecht,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+632,26,Utrecht,Woerden,0,0,0,0,0,0,0,0,2,2,2,2,2,2
+880,27,Noord-Holland,Wormerland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+351,26,Utrecht,Woudenberg,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+479,27,Noord-Holland,Zaanstad,0,0,0,0,0,0,0,0,0,2,2,2,2,2
+297,25,Gelderland,Zaltbommel,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+473,27,Noord-Holland,Zandvoort,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+50,24,Flevoland,Zeewolde,0,0,0,0,0,0,0,1,1,1,1,1,1,1
+355,26,Utrecht,Zeist,0,0,0,0,0,0,0,0,0,1,1,1,2,3
+299,25,Gelderland,Zevenaar,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+637,28,Zuid-Holland,Zoetermeer,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+638,28,Zuid-Holland,Zoeterwoude,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1892,28,Zuid-Holland,Zuidplas,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+879,30,Noord-Brabant,Zundert,0,0,0,0,0,0,0,0,0,0,1,1,1,2
+301,25,Gelderland,Zutphen,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1896,23,Overijssel,Zwartewaterland,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+642,28,Zuid-Holland,Zwijndrecht,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+193,23,Overijssel,Zwolle,0,0,0,0,0,0,0,0,0,0,1,1,1,2

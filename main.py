@@ -11,7 +11,8 @@ from covid_nl import update_data
 
 
 def latest_rivm_file(today, function):
-    file = "latest_rivm_file.json"
+    script_dir = os.path.dirname(__file__) + "/"
+    file = script_dir + "latest_rivm_file.json"
     if function == "open":
         with open(file) as json_file:
             data = json.load(json_file)
@@ -45,7 +46,7 @@ def main(cronjob = True):
                 break
             except Exception as e:
                 print(i, e)
-        if not s:
+        if x == False:
             try:
                 s = requests.get(f"{csv_url}{today}.csv", timeout=3).content
                 df = pd.read_csv(io.StringIO(s.decode('utf-8')), delimiter=";") 
@@ -62,7 +63,7 @@ def main(cronjob = True):
             print(f"data updated for {today}")
             print("File used:", i)
         else:
-            print("No new file, ")
+            print("No new file")
 
 
     else:
@@ -70,7 +71,9 @@ def main(cronjob = True):
             url = 'https://www.volksgezondheidenzorg.info/onderwerp/infectieziekten/regionaal-internationaal/coronavirus-covid-19'
             rivm_update_time = "2:00PM"
             today = datetime.now().strftime('%d%m%Y')
-            csv_local = f"input_data/klik_corona{today}.csv"
+            script_dir = os.path.dirname(__file__) + "/"
+            csv_local = f"{script_dir}input_data/klik_corona{today}.csv"
+            print(csv_local)
             rivm_update_time = datetime.strptime(today + rivm_update_time, "%d%m%Y%I:%M%p")
 
             if rivm_update_time < datetime.now():  #Checks if it's after the update time

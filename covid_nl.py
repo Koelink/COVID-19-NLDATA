@@ -1,5 +1,6 @@
 import pandas as pd
 from datetime import datetime, timedelta
+import os.path
 
 # Datasets:
 # Gemeente/provincies = https://www.cbs.nl/-/media/_excel/2020/03/gemeenten%20alfabetisch%202020.xlsx
@@ -29,7 +30,7 @@ def reddit_confirmed_table(df, sort):
         reddit_df.iloc[[0]] = ":-"
         reddit_df.set_index("**Gemeentenaam**", inplace=True)
         reddit_df.drop("**Provincienaam**", axis=1, inplace=True)
-        reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_city.csv", sep="|")
+        reddit_df.to_csv(f"{script_dir}reddit_table/reddit_time_series_19-covid-Confirmed_city.csv", sep="|")
         
     elif sort == "provincie":
         reddit_df = reddit_df.T
@@ -39,14 +40,14 @@ def reddit_confirmed_table(df, sort):
         reddit_df.set_axis(cols, axis=1, inplace=True)
         reddit_df = reddit_df.T
         reddit_df.index.name = "**Provincie**"
-        reddit_df.to_csv("reddit_table/reddit_time_series_19-covid-Confirmed_provinice.csv", sep="|")
+        reddit_df.to_csv(f"{script_dir}reddit_table/reddit_time_series_19-covid-Confirmed_provinice.csv", sep="|")
 
 
 def province_confirmed_table(df):
     province_df = df.groupby(["Provinciecode", "Provincienaam"]).sum().sort_index(level=["Provincienaam", "Provinciecode"])
     print(province_df)
-    province_df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
-    province_df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.xlsx")
+    province_df.to_csv(f"{script_dir}rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.csv")
+    province_df.to_excel(f"{script_dir}rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_province.xlsx")
     
     amount_of_days = 5
     reddit_confirmed_table(province_df[province_df.columns[-amount_of_days:]], "provincie")
@@ -54,6 +55,8 @@ def province_confirmed_table(df):
 
 
 def update_data():
+    global script_dir  
+    script_dir = os.path.dirname(__file__) + "/"
     first_day = datetime.strptime('27022020', "%d%m%Y").date()
     today = datetime.now().date()
 
@@ -63,7 +66,7 @@ def update_data():
 
     for i in dates:
         try:
-            file = f"input_data/klik_corona{datetime.strftime(i,'%d%m%Y')}.csv"
+            file = f"{script_dir}input_data/klik_corona{datetime.strftime(i,'%d%m%Y')}.csv"
             temp_df = pd.read_csv(file, delimiter=";", decimal=",")
             temp_df["Aantal"].fillna(0, inplace=True)
             temp_df["Aantal"] = temp_df["Aantal"].astype(int)
@@ -80,7 +83,7 @@ def update_data():
     df.dropna(how='all', inplace=True)
     df.fillna(value=0, inplace=True)        
 
-    provincie_df = pd.read_excel("input_data/Gemeenten alfabetisch 2020.xlsx")
+    provincie_df = pd.read_excel(f"{script_dir}input_data/Gemeenten alfabetisch 2020.xlsx")
     provincie_df.set_index("Gemeentecode", inplace = True)
     provincie_df = provincie_df[["Provinciecode", "Provincienaam", "Gemeentenaam"]]
     df = df.merge(provincie_df, left_index=True, right_index=True)
@@ -92,8 +95,8 @@ def update_data():
     df.sort_values(['Gemeentenaam'], ascending=1, inplace = True)
     df.index.name = "gemeente_id"
 
-    df.to_csv(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.csv")
-    df.to_excel(f"rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.xlsx")
+    df.to_csv(f"{script_dir}rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.csv")
+    df.to_excel(f"{script_dir}rivm_covid_19_data/rivm_covid_19_time_series/time_series_19-covid-Confirmed_city.xlsx")
 
     
     print(df)
