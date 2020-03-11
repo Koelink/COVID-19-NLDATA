@@ -47,11 +47,11 @@ def main(cronjob = True):
                 break
             except Exception as e:
                 print(i, e)
-        if x == False:
+        if x == False and range_end == -1:
             try:
                 s = requests.get(f"{csv_url}{today}.csv", timeout=3).content
                 df = pd.read_csv(io.StringIO(s.decode('utf-8')), delimiter=";") 
-                i = "-1"
+                i = -2
                 x = True
             except Exception as e:
                 print(i, e)
