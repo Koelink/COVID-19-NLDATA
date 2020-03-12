@@ -1,6 +1,7 @@
 import pandas as pd
 from datetime import datetime, timedelta
 import os.path
+import numpy as np
 
 # Datasets:
 # Gemeente/provincies = https://www.cbs.nl/-/media/_excel/2020/03/gemeenten%20alfabetisch%202020.xlsx
@@ -67,7 +68,7 @@ def update_data():
     for i in dates:
         try:
             file = f"{script_dir}input_data/klik_corona{datetime.strftime(i,'%d%m%Y')}.csv"
-            temp_df = pd.read_csv(file, delimiter=";", decimal=",")
+            temp_df = pd.read_csv(file, delimiter=";", decimal=",", dtype = {"Aantal" : "object"})
             temp_df["Aantal"].fillna(0, inplace=True)
             temp_df["Aantal"] = temp_df["Aantal"].astype(int)
             temp_df["Gemeentecode"] = temp_df["id"].apply(lambda x: str(int(x)))
