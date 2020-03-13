@@ -1,43 +1,40 @@
 # COVID-19-NLDATA
 
-Verwerking van de data zoals die in Nederland door het RIVM wordt aangeleverd.
+Processing of the data as supplied by RIVM (National Institute for Public Health and the Environment) in the Netherlands.
 
-## Gegevens worden gebruikt voor:
-[Map van gemeentes en provincie](https://studentdeployswebsite.z28.web.core.windows.net/) van Reddit-user [Crappy_bara](https://www.reddit.com/user/crappy_bara)
+## Data is used for:
+[Map of municipalities and province](https://studentdeployswebsite.z28.web.core.windows.net/) van Reddit-user [Crappy_bara](https://www.reddit.com/user/crappy_bara)
 
-[Hippe visualisatie](https://i.imgur.com/4PNpuOj.gif) van Reddit-user [FeelsLikeBatMan](https://www.reddit.com/user/FeelsLikeBatMan/)
+[Cool visualization](https://i.imgur.com/4PNpuOj.gif) from Reddit-user [FeelsLikeBatMan](https://www.reddit.com/user/FeelsLikeBatMan/)
 
 ## Datasets:
 
 
-### Gemeente/provincies
+### Municipality/provinces
 
 https://www.cbs.nl/-/media/_excel/2020/03/gemeenten%20alfabetisch%202020.xlsx 
 
-(met dank aan Reddit-user [mrmaxedtan](https://www.reddit.com/user/mrmaxedtank/))
+(Thanks to Reddit-user [mrmaxedtan](https://www.reddit.com/user/mrmaxedtank/))
 
 
-### Verspreiding per dag :
+### RIVM Covid-19 Site:
 
-https://www.volksgezondheidenzorg.info/onderwerp/infectieziekten/regionaal-internationaal/coronavirus-covid-19#node-coronavirus-covid-19-meldingen
+https://www.rivm.nl/coronavirus-kaart-van-nederland#node-coronavirus-covid-19-meldingen
 
 
-### directe link tot de csv per dag:
+### Direct link to csv:
+Update 12-03-2020:
 
-https://www.volksgezondheidenzorg.info/sites/default/files/map/detail_data/klik_corona{dag}{maand}{jaar}_0.csv
+The method old method is not working anymore (https://www.volksgezondheidenzorg.info/sites/default/files/map/detail_data/klik_corona{dag}{maand}{jaar}.csv). I use the <div id="csvData"> in the html from the [RIVM site](https://www.rivm.nl/coronavirus-kaart-van-nederland).  
 
-Deze link werkt op moment van schrijven (5-3-2020) vanaf 3 maart. De data van de huidige dag is op te vragen zonder de "_0" op het eind na {jaar}.
-Data van voor 3 maart is op basis van berichtgeving ingevoerd. 
-
-### Github van Johns Hopkins CSSE:
+### johns Hopkins CSSE Github:
 
 https://github.com/CSSEGISandData/COVID-19
 
 
 ## todo:
-- standaard laatste versie "time_series_19-covid-Confirmed.csv" ophalen en slechts laatste column toevoegen ipv elke keer opnieuw hele df maken
-- afhankelijk van de manier waarop RIVM gaat aanleveren df's maken voor mogelijke overlijdenen en mensen die genezen zijn
-- uploaden nieuwe data naar Github en mogelijk Google Drive
-- uploaden naar google drive? 
-- Besmettingen per 100k inwoners
-- Verandering in 24 uur
+- Use the last version of "time_series_19-covid-Confirmed.csv" instead of generation the file every time
+- Lists for healed patients and deceased patients (depending on how RIVM supplies these data)
+- Automatic upload to Github and Google Drive
+- Infections per 100k inhabitants
+- Growth in the last 24 hours
