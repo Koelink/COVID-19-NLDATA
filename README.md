@@ -25,7 +25,7 @@ https://www.rivm.nl/coronavirus-kaart-van-nederland#node-coronavirus-covid-19-me
 ### Direct link to csv:
 Update 12-03-2020:
 
-The method old method is not working anymore (https://www.volksgezondheidenzorg.info/sites/default/files/map/detail_data/klik_corona{dag}{maand}{jaar}.csv). I use the "<div id="csvData">" in the html from the [RIVM site](https://www.rivm.nl/coronavirus-kaart-van-nederland).  
+The method old method is not working anymore (https://www.volksgezondheidenzorg.info/sites/default/files/map/detail_data/klik_corona{dag}{maand}{jaar}.csv). I use the div id="csvData" in the html from the [RIVM site](https://www.rivm.nl/coronavirus-kaart-van-nederland).  
 
 ### johns Hopkins CSSE Github:
 
